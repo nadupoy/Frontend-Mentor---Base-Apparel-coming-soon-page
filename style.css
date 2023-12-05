@@ -40,7 +40,7 @@ input[type=email]:focus {
 }
 
 .error-icon {
-    /* visibility: hidden; */
+    visibility: hidden;
     position: relative;
     right: 16px;
 }
@@ -61,6 +61,7 @@ button[type=submit]:hover {
     text-align: left;
     margin-top: 8px;
     font-size: 12px;
+    visibility: hidden;
 }
 
 footer {
@@ -82,7 +83,7 @@ footer {
     text-decoration: none;
 }
 
-@media screen and (max-width: 1339px) {
+@media screen and (max-width: 1439px) {
     html {
         height: 100%;
         display: flex;
